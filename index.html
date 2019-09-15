@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
 
 </head>
     <body>
@@ -20,7 +20,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
-    <nav class="navbar navbar-expand-lg navbar fixed-top navbar-dark" style="background-color:#172548;">
+    
+
+      <nav class="navbar-expand{-sm|-md|-lg|-xl} navbar-collapse navbar fixed-top navbar-dark" style="background-color:#172548;">
         <a class="navbar-brand" href="index.html">John Do</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,21 +41,26 @@
           </ul>
         </div>
       </nav>
+   
 
-<div class="container">
+<div id="about-me" class="container">
 
       <div class="row">
-        <div class="col-sm-12 col-xs-9">
+        <div class="col col-lg-12 col-md-12 col-sm-4 col-xs-1">
             <div class="page-header">
                 <h1>About Me</h1>
-                <hr>
             </div>
+          </div>
+        </div>
+
+            <hr>
+
             <div class="row">
-                    <div class="col-md-4 col-sm-9 col-xs-12">
-                        <img src="assets/images/5D6A6715.jpg" alt="">
+                    <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-1">
+                        <img src="assets/images/5D6A6715.jpg" class="img-fluid" alt="Responsive Image">
                                 
                     </div>
-                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="col col-lg-9 col-md-8 col-sm-8 col-xs-1">
                         <p>I graduated from the University of Texas at Arlington on December 2015. I went into the investment and banking
                             industry starting as a data entry associate and advancing towards to becoming a Remediation Analyst for
                             Anti-Money Laundering(AML).
@@ -68,10 +75,13 @@
                     </div>
         </div>
 
-      </div>
-
-    </div>
-
+  <footer>
+      <nav class="navbar-expand{-sm|-md|-lg|-xl} navbar fixed-bottom navbar-dark" style="background-color:#172548;">
+          <span class="navbar-text">
+              Copyright &copy;
+            </span>
+      </nav>
+    </footer>
 
 
     </body>

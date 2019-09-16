@@ -12,19 +12,86 @@ body {
     padding-top: 5%;
   }
 
+  .navbar-brand {
+  
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    background:#172548;
+    color: #777777;
+    
+  }
+  
 .container {
 
     background: white;
 
 }  
 
-.row{
-    border: solid red;
+/* .row{ */
+    /* border: solid red; */
+/* } */
+
+/* .col { */
+
+    /* border: solid green; */
+
+/* } */
+
+.thumbnail {
+  position: relative;
 }
 
-.col {
+.caption {
 
-    border: solid green;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #172548;
+  border-bottom: 0;
 
 }
 
+.page-header {
+
+  padding: 30px;
+
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #172548;
+  border: 0 none;
+}
